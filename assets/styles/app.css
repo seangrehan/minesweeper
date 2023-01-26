@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:700';
+
+* {
+    font-family: "Roboto Sans", monospace;
+}
+
+.covered {
+    border: outset;
+}
+
+.uncovered {
+    border: inset;
+}
